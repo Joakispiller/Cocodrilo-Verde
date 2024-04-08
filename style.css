@@ -1,0 +1,190 @@
+@import
+url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Roboto:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "roboto";
+}
+body{
+    background-color: #F2F2F2;
+}
+
+header div{ 
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom:35px ;
+    font-weight: 900;
+}
+header div a{
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+    margin-left: 130px;
+}
+header div a:hover{
+    color: #ad9644;
+}
+.coco{
+    font-family: "Alex Brush";
+    font-size: 40px;
+}
+main{
+    width: 80%;
+    margin: auto;
+    max-width: 1320px;
+}
+.logo{
+    display: flex;
+    justify-content: space-between;
+}
+.logo h2{
+    font-weight: 400;
+    margin-top: 30px;
+}
+.logo h1{
+    font-family: "Alex Brush";
+    margin-top: 10px;
+    font-size: 55px;
+}
+.subtitulo{
+    background-color: #E7C85A ;
+    display: inline;
+    padding: 0px 7px 0px 2px;
+}
+.textoDos{
+    margin-top: 50px;
+}
+.logo img{
+    width: 350px;
+    border: 2px solid #E7C85A;
+}
+.descripcion{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+.descripcion p{
+margin-top: 15px;
+}
+.descripcion h3{
+    background-color: #E7C85A ;
+    display: inline;
+    padding: 0px 7px 0px 2px;
+}
+hr{
+    width: 80%;
+    margin: auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    max-width: 1320px;
+}
+.lista{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1320px;
+}
+.lista img{
+    width: 400px;
+}
+.lista h2{
+    margin-bottom: 40px;
+}
+.lista li{
+    margin-bottom: 20px;
+}
+
+.formulario{
+    width: 80%;
+    margin: auto;
+    margin-bottom: 80px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1320px;
+}
+.formulario h1{
+    font-size: 45px;
+    background-color: black;
+    color: #E7C85A;
+    display: inline;
+    line-height: 65px;
+    padding: 0px 10px 0px 10px;
+}
+.formulario h3{
+    background-color: #E7C85A ;
+    margin-top: 40px;
+    width: 220px;
+    font-size: 20px;
+    
+}
+
+.label{
+    display: block;
+}
+.label div{
+    margin-bottom: 15px;
+}
+.inputDiv{
+    margin-top: 25px;
+}
+.label span{
+    color: #C6353D;
+}
+label{
+    font-weight: 600;
+    font-size: 18px;
+}
+.label input{
+    padding: 10px;
+    font-size: 16px;
+    width: 400px;
+    border: 1px solid black;
+}
+textarea {
+    resize: none;
+    padding: 10px;
+    font-size: 16px;
+    width: 400px;
+    border: 1px solid black;
+}
+.botones{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.botones button{
+background-color: black;
+color: #E7C85A;
+padding: 7px 40px 7px 40px;
+font-size: 20px;
+font-weight: 600;
+}
+
+footer{
+    width: 80%;
+    margin: auto;
+    max-width: 1320px;
+    margin-top: 150px;
+}
+footer div{
+    width: 90%;
+    margin-bottom: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+footer img{
+    width: 100px;
+}
+footer img:hover{
+    opacity: 0.6;
+}
+footer h3{
+    margin-top: 20px;
+    color: #999999;
+}
+
